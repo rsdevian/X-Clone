@@ -1,5 +1,5 @@
 import daisyui from "daisyui";
-import { black } from "daisyui/src/theming/themes";
+
 /** @type {import('tailwindcss').Config} */
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -7,15 +7,20 @@ export default {
         extend: {},
     },
     plugins: [daisyui],
-
     daisyui: {
         themes: [
             "light",
             {
                 black: {
-                    ...black,
-                    primary: "rgb(29, 155, 240)",
-                    secondary: "rgb(24, 24, 24)",
+                    primary: "rgb(29, 155, 240)", // blue
+                    secondary: "rgb(24, 24, 24)", // dark bg
+                    accent: "#1f1f1f",
+                    neutral: "#111111",
+                    "base-100": "#000000", // <-- main background
+                    info: "#3abff8",
+                    success: "#36d399",
+                    warning: "#fbbd23",
+                    error: "#f87272",
                 },
             },
         ],
