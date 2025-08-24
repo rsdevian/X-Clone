@@ -4,7 +4,7 @@
 This is a full-stack clone of X (formerly Twitter) built using the MERN stack: MongoDB, Express.js, React.js, and Node.js. The project replicates core social media features such as user authentication, posting tweets, following users, and real-time interactions. It uses Tailwind CSS for styling, React Query for state management, and Cloudinary for image uploads.
 
 ## Demo
-*Currently no live demo due to trademark restrictions on deployment platforms.*
+Visit the deployed link for Demo: *[X-Clone](https://x-clone-sjob.onrender.com/)*
 
 ## Features
 - User registration and login (includes Google OAuth)
@@ -54,3 +54,4 @@ cd client
 npm install
 npm run dev
 ```
+
