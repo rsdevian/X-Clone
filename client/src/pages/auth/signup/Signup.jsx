@@ -31,7 +31,7 @@ export default function SignUpPage() {
 				const data = await res.json()
 				
 				if (!res.ok) throw new Error(data.error || "Failed to create account")
-				console.log(data)
+				// console.log(data)
 				return data
 			} catch(error) {
 				console.error(error)
